@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://wamwiki.github.io/NewWebsiteTest/"
 title = "Goldydocs"
 
 enableRobotsTXT = true
