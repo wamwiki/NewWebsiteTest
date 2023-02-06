@@ -1,3 +1,4 @@
-FROM klakegg/hugo:0.78.2-asciidoctor
+FROM klakegg/hugo:ext-alpine
 
-RUN apk add git
+RUN apk add git && \
+  git config --global --add safe.directory /src
