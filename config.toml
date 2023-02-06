@@ -195,12 +195,4 @@ enable = false
   # replacements = "github.com/google/docsy -> ../../docsy"
   [module.hugoVersion]
     extended = true
-    min = "0.75.0"
-  [[module.imports]]
-    path = "github.com/google/docsy"
-    #path = "/home/timothee/Documents/GitHub/WAMWIKI/NewWebsiteTest/themes/docsy"
-    disable = false
-  [[module.imports]]
-    path = "github.com/google/docsy/dependencies"
-  #  path = "/home/timothee/Documents/GitHub/WAMWIKI/NewWebsiteTest/themes/docsy/dependencies"
-   # disable = false    
+    min = "0.75.0" 
